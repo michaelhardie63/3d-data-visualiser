@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+    background: white;
+    overflow-x: hidden;
+}
+
+.content {
+    width: 90%;
+    height: 100%;
+    left: 100px;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    color: black;
+    z-index: 9999;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 0.9;
+    padding-bottom: 10px;
+    color: #dd0822;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+button {
+    background: #dd0822;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.globe {
+    margin-left: 400px;
+}
